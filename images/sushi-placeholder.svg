@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2421"/>
+      <stop offset="100%" stop-color="#191614"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdfa"/>
+      <stop offset="100%" stop-color="#ede3d5"/>
+    </linearGradient>
+    <linearGradient id="salmonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f27d6d"/>
+      <stop offset="100%" stop-color="#d65745"/>
+    </linearGradient>
+    <linearGradient id="tunaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c93b3b"/>
+      <stop offset="100%" stop-color="#931e1e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa8214"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Japanese Seigaiha wave / geometric pattern circles in background -->
+  <g stroke="#ffffff" stroke-opacity="0.04" fill="none" stroke-width="1.5">
+    <circle cx="100" cy="100" r="80"/>
+    <circle cx="100" cy="100" r="60"/>
+    <circle cx="100" cy="100" r="40"/>
+    <circle cx="700" cy="120" r="100"/>
+    <circle cx="700" cy="120" r="80"/>
+    <circle cx="700" cy="120" r="60"/>
+    <circle cx="120" cy="500" r="90"/>
+    <circle cx="120" cy="500" r="65"/>
+    <circle cx="720" cy="480" r="90"/>
+    <circle cx="720" cy="480" r="65"/>
+  </g>
+
+  <!-- Ceramic Sushi Serving Board / Plate -->
+  <rect x="160" y="110" width="480" height="340" rx="28" fill="url(#plateGrad)" filter="url(#shadow)"/>
+  <rect x="172" y="122" width="456" height="316" rx="20" fill="none" stroke="#d8cbba" stroke-width="2"/>
+
+  <!-- Chopsticks Resting -->
+  <line x1="200" y1="475" x2="600" y2="475" stroke="#b08d57" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="488" x2="600" y2="488" stroke="#8c6a38" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Sushi Roll 1 (Salmon Uramaki) -->
+  <g transform="translate(260, 210)">
+    <!-- Outer rice ring -->
+    <circle cx="0" cy="0" r="54" fill="#fdfbf7" stroke="#e8dfd2" stroke-width="3"/>
+    <!-- Nori ring -->
+    <circle cx="0" cy="0" r="42" fill="#1b2820"/>
+    <!-- Rice inner -->
+    <circle cx="0" cy="0" r="38" fill="#fdfbf7"/>
+    <!-- Avocado center -->
+    <circle cx="-10" cy="-6" r="14" fill="#7ba349"/>
+    <!-- Salmon center -->
+    <ellipse cx="12" cy="5" rx="14" ry="11" fill="url(#salmonGrad)"/>
+    <!-- Sesame seeds -->
+    <circle cx="-28" cy="-28" r="2.5" fill="#e5c898"/>
+    <circle cx="32" cy="-20" r="2.5" fill="#e5c898"/>
+    <circle cx="-30" cy="24" r="2.5" fill="#e5c898"/>
+    <circle cx="28" cy="28" r="2.5" fill="#e5c898"/>
+  </g>
+
+  <!-- Sushi Roll 2 (Spicy Tuna Uramaki) -->
+  <g transform="translate(390, 210)">
+    <!-- Outer rice ring -->
+    <circle cx="0" cy="0" r="54" fill="#fdfbf7" stroke="#e8dfd2" stroke-width="3"/>
+    <!-- Nori ring -->
+    <circle cx="0" cy="0" r="42" fill="#1b2820"/>
+    <!-- Rice inner -->
+    <circle cx="0" cy="0" r="38" fill="#fdfbf7"/>
+    <!-- Cucumber center -->
+    <circle cx="-12" cy="7" r="13" fill="#60993e"/>
+    <!-- Tuna center -->
+    <ellipse cx="10" cy="-6" rx="15" ry="12" fill="url(#tunaGrad)"/>
+    <!-- Sesame seeds -->
+    <circle cx="0" cy="-38" r="2.5" fill="#1b2820"/>
+    <circle cx="-34" cy="14" r="2.5" fill="#1b2820"/>
+    <circle cx="36" cy="12" r="2.5" fill="#1b2820"/>
+  </g>
+
+  <!-- Sushi Roll 3 (California Roll) -->
+  <g transform="translate(520, 210)">
+    <!-- Outer rice ring -->
+    <circle cx="0" cy="0" r="54" fill="#fdfbf7" stroke="#e8dfd2" stroke-width="3"/>
+    <!-- Nori ring -->
+    <circle cx="0" cy="0" r="42" fill="#1b2820"/>
+    <!-- Rice inner -->
+    <circle cx="0" cy="0" r="38" fill="#fdfbf7"/>
+    <!-- Avocado center -->
+    <ellipse cx="-8" cy="-5" rx="14" ry="11" fill="#7ba349"/>
+    <!-- Crab center -->
+    <ellipse cx="11" cy="7" rx="13" ry="10" fill="#f26a57"/>
+    <!-- Sesame seeds -->
+    <circle cx="-25" cy="-30" r="2.5" fill="#e5c898"/>
+    <circle cx="30" cy="-25" r="2.5" fill="#e5c898"/>
+    <circle cx="20" cy="32" r="2.5" fill="#e5c898"/>
+  </g>
+
+  <!-- Nigiri Piece (Salmon Nigiri) -->
+  <g transform="translate(300, 340)">
+    <!-- Rice base -->
+    <rect x="-55" y="-12" width="110" height="34" rx="16" fill="#f7f3ea" stroke="#ded4c3" stroke-width="2"/>
+    <!-- Salmon slice drape -->
+    <path d="M-65,-10 C-60,-28 60,-28 65,-10 C62,8 55,16 48,16 C0,14 -40,14 -48,16 C-58,16 -63,4 -65,-10 Z" fill="url(#salmonGrad)"/>
+    <!-- Salmon marbling lines -->
+    <path d="M-40,-20 L-25,12" stroke="#ffffff" stroke-width="2" stroke-opacity="0.6"/>
+    <path d="M-10,-23 L5,12" stroke="#ffffff" stroke-width="2" stroke-opacity="0.6"/>
+    <path d="M20,-20 L35,12" stroke="#ffffff" stroke-width="2" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Nigiri Piece (Tuna Nigiri) -->
+  <g transform="translate(480, 340)">
+    <!-- Rice base -->
+    <rect x="-55" y="-12" width="110" height="34" rx="16" fill="#f7f3ea" stroke="#ded4c3" stroke-width="2"/>
+    <!-- Tuna slice drape -->
+    <path d="M-65,-10 C-60,-28 60,-28 65,-10 C62,8 55,16 48,16 C0,14 -40,14 -48,16 C-58,16 -63,4 -65,-10 Z" fill="url(#tunaGrad)"/>
+    <!-- Nori band -->
+    <rect x="-10" y="-22" width="20" height="42" rx="4" fill="#1b2820"/>
+  </g>
+
+  <!-- Wasabi & Pickled Ginger dollops -->
+  <g transform="translate(205, 275)">
+    <!-- Wasabi peak -->
+    <circle cx="0" cy="0" r="14" fill="#88b04b"/>
+    <path d="M0,-14 Q-8,4 0,8 Q8,4 0,-14 Z" fill="#99c355"/>
+  </g>
+  <g transform="translate(585, 275)">
+    <!-- Gari ginger rose -->
+    <ellipse cx="0" cy="0" rx="16" ry="12" fill="#f8b4b4"/>
+    <ellipse cx="-4" cy="-3" rx="11" ry="8" fill="#fca5a5"/>
+    <ellipse cx="3" cy="2" rx="7" ry="5" fill="#fecaca"/>
+  </g>
+
+  <!-- Typography & Brand Seal -->
+  <text x="400" y="535" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600" letter-spacing="4" fill="#f3ece1">SAKURA SUSHI</text>
+  <text x="400" y="562" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" letter-spacing="3" fill="#bfae9b">AUTHENTIC JAPANESE KITCHEN</text>
+
+  <!-- Red Kanji Stamp Seal -->
+  <g transform="translate(675, 495)">
+    <rect x="-24" y="-24" width="48" height="48" rx="8" fill="none" stroke="#a8201a" stroke-width="2.5"/>
+    <text x="0" y="9" text-anchor="middle" font-family="'Playfair Display', serif" font-size="24" fill="#a8201a" font-weight="700">桜</text>
+  </g>
+</svg>
